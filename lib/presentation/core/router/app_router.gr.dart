@@ -173,6 +173,57 @@ class CupertinoSwitchRoute extends PageRouteInfo<void> {
 }
 
 /// generated route for
+/// [FullscreenVideoPlayerScreen]
+class FullscreenVideoPlayerRoute
+    extends PageRouteInfo<FullscreenVideoPlayerRouteArgs> {
+  FullscreenVideoPlayerRoute({
+    Key? key,
+    required VideoPlayerController controller,
+    List<PageRouteInfo>? children,
+  }) : super(
+         FullscreenVideoPlayerRoute.name,
+         args: FullscreenVideoPlayerRouteArgs(key: key, controller: controller),
+         initialChildren: children,
+       );
+
+  static const String name = 'FullscreenVideoPlayerRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      final args = data.argsAs<FullscreenVideoPlayerRouteArgs>();
+      return FullscreenVideoPlayerScreen(
+        key: args.key,
+        controller: args.controller,
+      );
+    },
+  );
+}
+
+class FullscreenVideoPlayerRouteArgs {
+  const FullscreenVideoPlayerRouteArgs({this.key, required this.controller});
+
+  final Key? key;
+
+  final VideoPlayerController controller;
+
+  @override
+  String toString() {
+    return 'FullscreenVideoPlayerRouteArgs{key: $key, controller: $controller}';
+  }
+
+  @override
+  bool operator ==(Object other) {
+    if (identical(this, other)) return true;
+    if (other is! FullscreenVideoPlayerRouteArgs) return false;
+    return key == other.key && controller == other.controller;
+  }
+
+  @override
+  int get hashCode => key.hashCode ^ controller.hashCode;
+}
+
+/// generated route for
 /// [HomeScreen]
 class HomeRoute extends PageRouteInfo<void> {
   const HomeRoute({List<PageRouteInfo>? children})
@@ -189,6 +240,22 @@ class HomeRoute extends PageRouteInfo<void> {
 }
 
 /// generated route for
+/// [MediaQueryPropertyOfScreen]
+class MediaQueryPropertyOfRoute extends PageRouteInfo<void> {
+  const MediaQueryPropertyOfRoute({List<PageRouteInfo>? children})
+    : super(MediaQueryPropertyOfRoute.name, initialChildren: children);
+
+  static const String name = 'MediaQueryPropertyOfRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const MediaQueryPropertyOfScreen();
+    },
+  );
+}
+
+/// generated route for
 /// [NestedScrollViewScreen]
 class NestedScrollViewRoute extends PageRouteInfo<void> {
   const NestedScrollViewRoute({List<PageRouteInfo>? children})
@@ -200,6 +267,22 @@ class NestedScrollViewRoute extends PageRouteInfo<void> {
     name,
     builder: (data) {
       return const NestedScrollViewScreen();
+    },
+  );
+}
+
+/// generated route for
+/// [SearchScreen]
+class SearchRoute extends PageRouteInfo<void> {
+  const SearchRoute({List<PageRouteInfo>? children})
+    : super(SearchRoute.name, initialChildren: children);
+
+  static const String name = 'SearchRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const SearchScreen();
     },
   );
 }
@@ -248,6 +331,54 @@ class SplashRoute extends PageRouteInfo<void> {
     name,
     builder: (data) {
       return const SplashScreen();
+    },
+  );
+}
+
+/// generated route for
+/// [Uint8ListScreen]
+class Uint8ListRoute extends PageRouteInfo<void> {
+  const Uint8ListRoute({List<PageRouteInfo>? children})
+    : super(Uint8ListRoute.name, initialChildren: children);
+
+  static const String name = 'Uint8ListRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const Uint8ListScreen();
+    },
+  );
+}
+
+/// generated route for
+/// [UnmodifiableListViewScreen]
+class UnmodifiableListViewRoute extends PageRouteInfo<void> {
+  const UnmodifiableListViewRoute({List<PageRouteInfo>? children})
+    : super(UnmodifiableListViewRoute.name, initialChildren: children);
+
+  static const String name = 'UnmodifiableListViewRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const UnmodifiableListViewScreen();
+    },
+  );
+}
+
+/// generated route for
+/// [VideoPlayerScreen]
+class VideoPlayerRoute extends PageRouteInfo<void> {
+  const VideoPlayerRoute({List<PageRouteInfo>? children})
+    : super(VideoPlayerRoute.name, initialChildren: children);
+
+  static const String name = 'VideoPlayerRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const VideoPlayerScreen();
     },
   );
 }

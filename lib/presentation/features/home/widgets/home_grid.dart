@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets_collection/domain/entities/home/home_item_model.dart';
+import 'package:widgets_collection/domain/entities/models/home/home_item_model.dart';
 import 'package:widgets_collection/presentation/features/home/widgets/home_grid_item.dart';
 
 class HomeGrid extends StatelessWidget {

@@ -1,6 +1,6 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:widgets_collection/domain/entities/home/home_item_model.dart';
+import 'package:widgets_collection/domain/entities/models/home/home_item_model.dart';
 
 class HomeGridItem extends StatelessWidget {
   final HomeItemModel item;
