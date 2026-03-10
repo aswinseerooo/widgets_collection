@@ -80,6 +80,12 @@ class HomeItemsData {
       route: VideoPlayerRoute(),
       type: HomeTabType.packages,
     ),
+    HomeItemModel(
+      title: "Mix Package",
+      icon: Icons.palette,
+      route: MixOverviewRoute(),
+      type: HomeTabType.packages,
+    ),
 
     /// TECHNIQUES
     HomeItemModel(

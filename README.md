@@ -1,14 +1,16 @@
 # 🚀 Flutter Widgets Collection
 
-A curated collection of **Flutter widget demos** built to explore and understand Flutter widgets in a **clean, modular, and production-like architecture**.
+A curated collection of **Flutter widget demos, package integrations, and development techniques** built to explore and understand Flutter widgets in a **clean, modular, and production-like architecture**.
 
-This project serves as a **widget playground** where each widget is demonstrated in an isolated screen with clear examples.
+This project serves as a **widget playground and reference library**, where each widget is demonstrated in an isolated screen with clear examples.
 
 ---
 
 ## ✨ Features
 
 * 📱 Interactive widget demonstrations
+* 📦 Package integration demos
+* 🧠 Flutter development techniques
 * 🧱 Clean architecture and modular code structure
 * 🎨 Custom reusable UI components
 * 🔍 Easy navigation between widget demos
@@ -16,9 +18,15 @@ This project serves as a **widget playground** where each widget is demonstrated
 
 ---
 
-## 📚 Widgets Covered
+## 📚 Categories
 
-Currently implemented demos include:
+The demos are organized into **three categories**.
+
+## 🧩 Widgets
+
+Flutter built-in widget demonstrations.
+
+Currently implemented:
 
 * SliverFillRemaining
 * NestedScrollView
@@ -30,14 +38,34 @@ Currently implemented demos include:
 * CupertinoCheckbox
 * CupertinoSwitch
 * CarouselView (Multiple Layouts)
+* SearchBar & SearchAnchor
 
-More widgets will be added regularly.
+## 📦 Packages
+
+Demonstrations of popular Flutter packages.
+
+Currently implemented:
+
+* video_player
+* mix
+
+## 🧠 Techniques
+
+Useful Flutter development patterns and APIs.
+
+Currently implemented:
+
+* MediaQuery.propertyOf
+* UnmodifiableListView
+* Uint8List
+
+More widgets, packages, and development techniques will be added regularly.
 
 ---
 
 ## 🏗 Architecture Pattern
 
-Each widget demo follows the same structure:
+Each demo follows the same structure:
 
 ```
 WidgetScreen
@@ -93,7 +121,13 @@ cd widgets_collection
 flutter pub get
 ```
 
-### 4️⃣ Run the app
+### 4️⃣ Generate routes
+
+```bash
+flutter pub run build_runner build
+```
+
+### 5️⃣ Run the app
 
 ```bash
 flutter run
@@ -115,8 +149,9 @@ flutter run
 This project was created to:
 
 * Experiment with Flutter widgets
+* Explore Flutter packages
+* Demonastrate useful Flutter techniques
 * Build reusable UI components
-* Understand Flutter layouts deeply
 * Maintain a personal widget reference library
 
 ---
@@ -126,6 +161,8 @@ This project was created to:
 Feel free to contribute by:
 
 * Adding new widget demos
+* Adding new package integrations
+* Adding new development techniques
 * Improving UI examples
 * Optimizing existing implementations
 
@@ -141,4 +178,4 @@ If you find this project helpful, consider giving it a ⭐ on GitHub!
 
 **Aswin V Shaji**
 
-Flutter Developer passionate about building clean, scalable UI architectures.
+Flutter Developer passionate about building **clean, scalable UI architectures and reusable Flutter components**.

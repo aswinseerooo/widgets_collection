@@ -256,6 +256,54 @@ class MediaQueryPropertyOfRoute extends PageRouteInfo<void> {
 }
 
 /// generated route for
+/// [MixOverviewScreen]
+class MixOverviewRoute extends PageRouteInfo<void> {
+  const MixOverviewRoute({List<PageRouteInfo>? children})
+    : super(MixOverviewRoute.name, initialChildren: children);
+
+  static const String name = 'MixOverviewRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const MixOverviewScreen();
+    },
+  );
+}
+
+/// generated route for
+/// [MixReusableStylesScreen]
+class MixReusableStylesRoute extends PageRouteInfo<void> {
+  const MixReusableStylesRoute({List<PageRouteInfo>? children})
+    : super(MixReusableStylesRoute.name, initialChildren: children);
+
+  static const String name = 'MixReusableStylesRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const MixReusableStylesScreen();
+    },
+  );
+}
+
+/// generated route for
+/// [MixVariantsScreen]
+class MixVariantsRoute extends PageRouteInfo<void> {
+  const MixVariantsRoute({List<PageRouteInfo>? children})
+    : super(MixVariantsRoute.name, initialChildren: children);
+
+  static const String name = 'MixVariantsRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const MixVariantsScreen();
+    },
+  );
+}
+
+/// generated route for
 /// [NestedScrollViewScreen]
 class NestedScrollViewRoute extends PageRouteInfo<void> {
   const NestedScrollViewRoute({List<PageRouteInfo>? children})
