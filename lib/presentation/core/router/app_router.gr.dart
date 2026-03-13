@@ -74,6 +74,22 @@ class CarouselViewRoute extends PageRouteInfo<void> {
 }
 
 /// generated route for
+/// [CompleterScreen]
+class CompleterRoute extends PageRouteInfo<void> {
+  const CompleterRoute({List<PageRouteInfo>? children})
+    : super(CompleterRoute.name, initialChildren: children);
+
+  static const String name = 'CompleterRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const CompleterScreen();
+    },
+  );
+}
+
+/// generated route for
 /// [CupertinoCheckboxScreen]
 class CupertinoCheckboxRoute extends PageRouteInfo<void> {
   const CupertinoCheckboxRoute({List<PageRouteInfo>? children})
@@ -173,6 +189,22 @@ class CupertinoSwitchRoute extends PageRouteInfo<void> {
 }
 
 /// generated route for
+/// [FirebaseAIScreen]
+class FirebaseAIRoute extends PageRouteInfo<void> {
+  const FirebaseAIRoute({List<PageRouteInfo>? children})
+    : super(FirebaseAIRoute.name, initialChildren: children);
+
+  static const String name = 'FirebaseAIRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const FirebaseAIScreen();
+    },
+  );
+}
+
+/// generated route for
 /// [FullscreenVideoPlayerScreen]
 class FullscreenVideoPlayerRoute
     extends PageRouteInfo<FullscreenVideoPlayerRouteArgs> {
@@ -221,6 +253,22 @@ class FullscreenVideoPlayerRouteArgs {
 
   @override
   int get hashCode => key.hashCode ^ controller.hashCode;
+}
+
+/// generated route for
+/// [FutureWaitScreen]
+class FutureWaitRoute extends PageRouteInfo<void> {
+  const FutureWaitRoute({List<PageRouteInfo>? children})
+    : super(FutureWaitRoute.name, initialChildren: children);
+
+  static const String name = 'FutureWaitRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const FutureWaitScreen();
+    },
+  );
 }
 
 /// generated route for

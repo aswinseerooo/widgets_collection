@@ -11,10 +11,13 @@ dependencies:
   auto_route: ^11.1.0
   cupertino_icons: ^1.0.8
   dio: ^5.9.2
+  firebase_ai: ^3.9.0
+  firebase_core: ^4.5.0
   flutter:
     sdk: flutter
   freezed_annotation: ^3.1.0
   get_it: ^9.2.1
+  image_picker: ^1.2.1
   injectable: ^2.7.1+4
   json_annotation: ^4.11.0
   mix: ^1.7.0

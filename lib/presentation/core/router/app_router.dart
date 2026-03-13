@@ -1,10 +1,13 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
+import 'package:widgets_collection/presentation/features/packages/firebase_ai/firebase_ai_screen.dart';
 import 'package:widgets_collection/presentation/features/packages/mix/screens/mix_overview_screen.dart';
 import 'package:widgets_collection/presentation/features/packages/mix/screens/mix_reusable_styles_screen.dart';
 import 'package:widgets_collection/presentation/features/packages/mix/screens/mix_variants_screen.dart';
 import 'package:widgets_collection/presentation/features/packages/video_player/widgets/fullscreen_video_player.dart';
+import 'package:widgets_collection/presentation/features/techniques/completer/completer_screen.dart';
+import 'package:widgets_collection/presentation/features/techniques/future_wait/future_wait_screen.dart';
 import 'package:widgets_collection/presentation/features/techniques/media_query_property_of/media_query_property_of_screen.dart';
 import 'package:widgets_collection/presentation/features/techniques/uint8_list/uint8_list_screen.dart';
 import 'package:widgets_collection/presentation/features/techniques/unmodifiable_list_view/unmodifiable_list_view_screen.dart';
@@ -53,5 +56,8 @@ class AppRouter extends RootStackRouter {
     AutoRoute(page: MixOverviewRoute.page),
     AutoRoute(page: MixVariantsRoute.page),
     AutoRoute(page: MixReusableStylesRoute.page),
+    AutoRoute(page: CompleterRoute.page),
+    AutoRoute(page: FirebaseAIRoute.page),
+    AutoRoute(page: FutureWaitRoute.page),
   ];
 }

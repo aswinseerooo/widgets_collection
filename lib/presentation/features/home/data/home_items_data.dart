@@ -86,6 +86,12 @@ class HomeItemsData {
       route: MixOverviewRoute(),
       type: HomeTabType.packages,
     ),
+    HomeItemModel(
+      title: "Firebase AI (Gemini)",
+      icon: Icons.smart_toy,
+      route: FirebaseAIRoute(),
+      type: HomeTabType.packages,
+    ),
 
     /// TECHNIQUES
     HomeItemModel(
@@ -104,6 +110,18 @@ class HomeItemsData {
       title: "Uint8List",
       icon: Icons.memory,
       route: Uint8ListRoute(),
+      type: HomeTabType.techniques,
+    ),
+    HomeItemModel(
+      title: "Completer",
+      icon: Icons.pending_actions,
+      route: CompleterRoute(),
+      type: HomeTabType.techniques,
+    ),
+    HomeItemModel(
+      title: "Future.wait",
+      icon: Icons.sync,
+      route: FutureWaitRoute(),
       type: HomeTabType.techniques,
     ),
   ];

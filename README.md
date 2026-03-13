@@ -48,6 +48,7 @@ Currently implemented:
 
 * video_player
 * mix
+* firebase_ai
 
 ## 🧠 Techniques
 
@@ -58,6 +59,8 @@ Currently implemented:
 * MediaQuery.propertyOf
 * UnmodifiableListView
 * Uint8List
+* Completers
+* Future.wait
 
 More widgets, packages, and development techniques will be added regularly.
 
