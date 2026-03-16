@@ -8,7 +8,9 @@ import 'package:widgets_collection/presentation/features/packages/mix/screens/mi
 import 'package:widgets_collection/presentation/features/packages/video_player/widgets/fullscreen_video_player.dart';
 import 'package:widgets_collection/presentation/features/techniques/completer/completer_screen.dart';
 import 'package:widgets_collection/presentation/features/techniques/future_wait/future_wait_screen.dart';
+import 'package:widgets_collection/presentation/features/techniques/list_generate/list_generate_screen.dart';
 import 'package:widgets_collection/presentation/features/techniques/media_query_property_of/media_query_property_of_screen.dart';
+import 'package:widgets_collection/presentation/features/techniques/tween/tween_screen.dart';
 import 'package:widgets_collection/presentation/features/techniques/uint8_list/uint8_list_screen.dart';
 import 'package:widgets_collection/presentation/features/techniques/unmodifiable_list_view/unmodifiable_list_view_screen.dart';
 import 'package:widgets_collection/presentation/features/widgets/carousal_view/screens/carousal_layout_screen.dart';
@@ -59,5 +61,7 @@ class AppRouter extends RootStackRouter {
     AutoRoute(page: CompleterRoute.page),
     AutoRoute(page: FirebaseAIRoute.page),
     AutoRoute(page: FutureWaitRoute.page),
+    AutoRoute(page: ListGenerateRoute.page),
+    AutoRoute(page: TweenRoute.page),
   ];
 }

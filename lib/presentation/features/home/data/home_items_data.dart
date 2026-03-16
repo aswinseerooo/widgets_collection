@@ -124,5 +124,17 @@ class HomeItemsData {
       route: FutureWaitRoute(),
       type: HomeTabType.techniques,
     ),
+    HomeItemModel(
+      title: "List.generate",
+      icon: Icons.star_rate,
+      route: ListGenerateRoute(),
+      type: HomeTabType.techniques,
+    ),
+    HomeItemModel(
+      title: "Tween",
+      icon: Icons.animation,
+      route: TweenRoute(),
+      type: HomeTabType.techniques,
+    ),
   ];
 }

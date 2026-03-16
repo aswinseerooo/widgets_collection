@@ -288,6 +288,22 @@ class HomeRoute extends PageRouteInfo<void> {
 }
 
 /// generated route for
+/// [ListGenerateScreen]
+class ListGenerateRoute extends PageRouteInfo<void> {
+  const ListGenerateRoute({List<PageRouteInfo>? children})
+    : super(ListGenerateRoute.name, initialChildren: children);
+
+  static const String name = 'ListGenerateRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const ListGenerateScreen();
+    },
+  );
+}
+
+/// generated route for
 /// [MediaQueryPropertyOfScreen]
 class MediaQueryPropertyOfRoute extends PageRouteInfo<void> {
   const MediaQueryPropertyOfRoute({List<PageRouteInfo>? children})
@@ -427,6 +443,22 @@ class SplashRoute extends PageRouteInfo<void> {
     name,
     builder: (data) {
       return const SplashScreen();
+    },
+  );
+}
+
+/// generated route for
+/// [TweenScreen]
+class TweenRoute extends PageRouteInfo<void> {
+  const TweenRoute({List<PageRouteInfo>? children})
+    : super(TweenRoute.name, initialChildren: children);
+
+  static const String name = 'TweenRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const TweenScreen();
     },
   );
 }

@@ -61,6 +61,8 @@ Currently implemented:
 * Uint8List
 * Completers
 * Future.wait
+* List.generate
+* Tween
 
 More widgets, packages, and development techniques will be added regularly.
 
