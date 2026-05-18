@@ -47,18 +47,21 @@ class _CupertinoSlidingSegmentedControlBodyState
           const SizedBox(height: 30),
 
           Center(
-            child: CupertinoSlidingSegmentedControl<String>(
-              backgroundColor: Colors.white.withValues(alpha: 0.2),
-              thumbColor: Colors.white,
-              groupValue: selectedSegment,
-              children: segments,
-              onValueChanged: (value) {
-                if (value != null) {
-                  setState(() {
-                    selectedSegment = value;
-                  });
-                }
-              },
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(30),
+              child: CupertinoSlidingSegmentedControl<String>(
+                backgroundColor: Colors.white.withValues(alpha: 0.2),
+                thumbColor: Colors.white,
+                groupValue: selectedSegment,
+                children: segments,
+                onValueChanged: (value) {
+                  if (value != null) {
+                    setState(() {
+                      selectedSegment = value;
+                    });
+                  }
+                },
+              ),
             ),
           ),
 

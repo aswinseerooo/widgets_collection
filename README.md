@@ -39,6 +39,8 @@ Currently implemented:
 * CupertinoSwitch
 * CarouselView (Multiple Layouts)
 * SearchBar & SearchAnchor
+* SegmentedButton
+* DropdownMenu
 
 ## 📦 Packages
 
@@ -63,6 +65,7 @@ Currently implemented:
 * Future.wait
 * List.generate
 * Tween
+* Isolate
 
 More widgets, packages, and development techniques will be added regularly.
 

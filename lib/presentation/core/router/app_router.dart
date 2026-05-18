@@ -8,6 +8,7 @@ import 'package:widgets_collection/presentation/features/packages/mix/screens/mi
 import 'package:widgets_collection/presentation/features/packages/video_player/widgets/fullscreen_video_player.dart';
 import 'package:widgets_collection/presentation/features/techniques/completer/completer_screen.dart';
 import 'package:widgets_collection/presentation/features/techniques/future_wait/future_wait_screen.dart';
+import 'package:widgets_collection/presentation/features/techniques/isolate/isolate_screen.dart';
 import 'package:widgets_collection/presentation/features/techniques/list_generate/list_generate_screen.dart';
 import 'package:widgets_collection/presentation/features/techniques/media_query_property_of/media_query_property_of_screen.dart';
 import 'package:widgets_collection/presentation/features/techniques/tween/tween_screen.dart';
@@ -22,9 +23,11 @@ import 'package:widgets_collection/presentation/features/widgets/cupertino_slidi
 import 'package:widgets_collection/presentation/features/widgets/cupertino_sliver_navigation_bar/cupertino_sliver_navigation_bar_screen.dart';
 import 'package:widgets_collection/presentation/features/widgets/cupertino_switch/cupertino_switch_screen.dart';
 import 'package:widgets_collection/presentation/features/home/home_screen.dart';
+import 'package:widgets_collection/presentation/features/widgets/dropdown_menu/dropdown_menu_screen.dart';
 import 'package:widgets_collection/presentation/features/widgets/nested_scroll_view/nested_scroll_view_screen.dart';
 import 'package:widgets_collection/presentation/features/packages/video_player/video_player_screen.dart';
 import 'package:widgets_collection/presentation/features/widgets/search/search_screen.dart';
+import 'package:widgets_collection/presentation/features/widgets/segmented_button/segmented_button_screen.dart';
 import 'package:widgets_collection/presentation/features/widgets/sliver_fill_remaining/sliver_fill_remaining_screen.dart';
 import 'package:widgets_collection/presentation/features/widgets/sliver_to_box/sliver_to_box_adapter_screen.dart';
 import 'package:widgets_collection/presentation/features/splash/splash_screen.dart';
@@ -63,5 +66,8 @@ class AppRouter extends RootStackRouter {
     AutoRoute(page: FutureWaitRoute.page),
     AutoRoute(page: ListGenerateRoute.page),
     AutoRoute(page: TweenRoute.page),
+    AutoRoute(page: IsolateRoute.page),
+    AutoRoute(page: SegmentedButtonRoute.page),
+    AutoRoute(page: DropdownMenuRoute.page),
   ];
 }

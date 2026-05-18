@@ -189,6 +189,22 @@ class CupertinoSwitchRoute extends PageRouteInfo<void> {
 }
 
 /// generated route for
+/// [DropdownMenuScreen]
+class DropdownMenuRoute extends PageRouteInfo<void> {
+  const DropdownMenuRoute({List<PageRouteInfo>? children})
+    : super(DropdownMenuRoute.name, initialChildren: children);
+
+  static const String name = 'DropdownMenuRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const DropdownMenuScreen();
+    },
+  );
+}
+
+/// generated route for
 /// [FirebaseAIScreen]
 class FirebaseAIRoute extends PageRouteInfo<void> {
   const FirebaseAIRoute({List<PageRouteInfo>? children})
@@ -283,6 +299,22 @@ class HomeRoute extends PageRouteInfo<void> {
     name,
     builder: (data) {
       return const HomeScreen();
+    },
+  );
+}
+
+/// generated route for
+/// [IsolateScreen]
+class IsolateRoute extends PageRouteInfo<void> {
+  const IsolateRoute({List<PageRouteInfo>? children})
+    : super(IsolateRoute.name, initialChildren: children);
+
+  static const String name = 'IsolateRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const IsolateScreen();
     },
   );
 }
@@ -395,6 +427,22 @@ class SearchRoute extends PageRouteInfo<void> {
     name,
     builder: (data) {
       return const SearchScreen();
+    },
+  );
+}
+
+/// generated route for
+/// [SegmentedButtonScreen]
+class SegmentedButtonRoute extends PageRouteInfo<void> {
+  const SegmentedButtonRoute({List<PageRouteInfo>? children})
+    : super(SegmentedButtonRoute.name, initialChildren: children);
+
+  static const String name = 'SegmentedButtonRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const SegmentedButtonScreen();
     },
   );
 }

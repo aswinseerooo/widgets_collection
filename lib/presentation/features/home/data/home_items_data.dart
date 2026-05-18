@@ -72,6 +72,18 @@ class HomeItemsData {
       route: SearchRoute(),
       type: HomeTabType.widgets,
     ),
+    HomeItemModel(
+      title: "SegmentedButton",
+      icon: Icons.segment,
+      route: SegmentedButtonRoute(),
+      type: HomeTabType.widgets,
+    ),
+    HomeItemModel(
+      title: "DropdownMenu",
+      icon: Icons.arrow_drop_down_circle_outlined,
+      route: DropdownMenuRoute(),
+      type: HomeTabType.widgets,
+    ),
 
     /// PACKAGES
     HomeItemModel(
@@ -134,6 +146,12 @@ class HomeItemsData {
       title: "Tween",
       icon: Icons.animation,
       route: TweenRoute(),
+      type: HomeTabType.techniques,
+    ),
+    HomeItemModel(
+      title: "Isolates",
+      icon: Icons.memory,
+      route: IsolateRoute(),
       type: HomeTabType.techniques,
     ),
   ];

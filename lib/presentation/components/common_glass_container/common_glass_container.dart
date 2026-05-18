@@ -26,6 +26,7 @@ class CommonGlassContainer extends StatelessWidget {
         height: height,
         decoration: BoxDecoration(
           color: Colors.white.withValues(alpha: 0.1),
+          border: Border.all(color: Colors.white.withValues(alpha: 0.15)),
           borderRadius: border,
         ),
         child: InkWell(
