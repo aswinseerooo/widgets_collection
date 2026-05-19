@@ -28,6 +28,7 @@ import 'package:widgets_collection/presentation/features/widgets/nested_scroll_v
 import 'package:widgets_collection/presentation/features/packages/video_player/video_player_screen.dart';
 import 'package:widgets_collection/presentation/features/widgets/search/search_screen.dart';
 import 'package:widgets_collection/presentation/features/widgets/segmented_button/segmented_button_screen.dart';
+import 'package:widgets_collection/presentation/features/widgets/sensitive_content/sensitive_content_screen.dart';
 import 'package:widgets_collection/presentation/features/widgets/sliver_fill_remaining/sliver_fill_remaining_screen.dart';
 import 'package:widgets_collection/presentation/features/widgets/sliver_to_box/sliver_to_box_adapter_screen.dart';
 import 'package:widgets_collection/presentation/features/splash/splash_screen.dart';
@@ -69,5 +70,6 @@ class AppRouter extends RootStackRouter {
     AutoRoute(page: IsolateRoute.page),
     AutoRoute(page: SegmentedButtonRoute.page),
     AutoRoute(page: DropdownMenuRoute.page),
+    AutoRoute(page: SensitiveContentRoute.page),
   ];
 }

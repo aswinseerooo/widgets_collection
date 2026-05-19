@@ -1,10 +1,12 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:widgets_collection/domain/entities/enums/enums.dart';
 import 'package:widgets_collection/domain/entities/models/home/home_item_model.dart';
 import 'package:widgets_collection/presentation/core/router/app_router.dart';
 
 class HomeItemsData {
-  static const items = [
+  static final items = [
     /// WIDGETS
     HomeItemModel(
       title: "Sliver Fill Remaining",
@@ -82,6 +84,13 @@ class HomeItemsData {
       title: "DropdownMenu",
       icon: Icons.arrow_drop_down_circle_outlined,
       route: DropdownMenuRoute(),
+      type: HomeTabType.widgets,
+    ),
+    if (Platform.isAndroid)
+    HomeItemModel(
+      title: 'SensitiveContent',
+      icon: Icons.privacy_tip_rounded,
+      route: SensitiveContentRoute(),
       type: HomeTabType.widgets,
     ),
 

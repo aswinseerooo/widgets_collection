@@ -67,16 +67,16 @@ class _HomeBodyState extends State<HomeBody> {
 
           const SizedBox(height: 20),
 
+          HomeSearchField(controller: _searchController),
+
+          const SizedBox(height: 20),
+
           Center(
             child: HomeTabs(
               selectedTab: _selectedTab,
               onTabChanged: _onTabChanged,
             ),
           ),
-
-          const SizedBox(height: 20),
-
-          HomeSearchField(controller: _searchController),
 
           const SizedBox(height: 20),
 
@@ -88,7 +88,7 @@ class _HomeBodyState extends State<HomeBody> {
                 items: _filteredItems,
               ),
             ),
-          )
+          ),
         ],
       ),
     );

@@ -448,6 +448,22 @@ class SegmentedButtonRoute extends PageRouteInfo<void> {
 }
 
 /// generated route for
+/// [SensitiveContentScreen]
+class SensitiveContentRoute extends PageRouteInfo<void> {
+  const SensitiveContentRoute({List<PageRouteInfo>? children})
+    : super(SensitiveContentRoute.name, initialChildren: children);
+
+  static const String name = 'SensitiveContentRoute';
+
+  static PageInfo page = PageInfo(
+    name,
+    builder: (data) {
+      return const SensitiveContentScreen();
+    },
+  );
+}
+
+/// generated route for
 /// [SliverFillRemainingScreen]
 class SliverFillRemainingRoute extends PageRouteInfo<void> {
   const SliverFillRemainingRoute({List<PageRouteInfo>? children})
